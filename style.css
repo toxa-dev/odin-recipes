@@ -1,0 +1,45 @@
+ul,
+ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 0.4em 0;
+}
+
+body {
+    width: 750px;
+    margin: 0 auto;
+    background-color: rgb(13, 13, 88);
+}
+
+h1,
+a,
+p,
+ul,
+ol,
+h2 {
+    color: rgb(255, 255, 255)
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom: 1px solid white;
+}
+
+.back-home {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 0.4em;
+    display: inline-block;
+    border: 1px solid white;
+}
+
+.back-home:hover {
+    opacity: 0.7;
+}
